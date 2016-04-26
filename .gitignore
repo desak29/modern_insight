@@ -1,0 +1,12 @@
+*.swp
+*.pyc
+*.sqlite3
+htmlcov/*
+approval_frame/secret_key.py
+approval_frame/local_settings.py
+.coverage
+*.swn
+*.swo
+env
+Thumbs.db
+/staticfiles/
