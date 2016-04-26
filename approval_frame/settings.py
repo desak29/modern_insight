@@ -173,6 +173,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 );
 
+MAILCHIMP_API_KEY = '651886502b1d8d80afdb7065e030cf62-us13'
+
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
 # the site admins on every HTTP 500 error when DEBUG=False.
@@ -227,3 +229,4 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
   'locale': 'ru_RU',
   'fields': 'id, name, email'
 }
+
